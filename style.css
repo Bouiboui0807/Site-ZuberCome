@@ -1,0 +1,87 @@
+.titlehome {
+    background-color: white;
+    border: 5px black double;
+    padding: 5px;
+    text-align: justify;
+}
+.title1 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: justify;
+    width: fit-content;
+    border-radius: 8% 92% 5% 95% / 90% 19% 81% 10%;
+    border-left: 5px gray solid;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.body1 {
+    background-image: url(https://th.bing.com/th/id/OIP.ZH29fBTrOEuM3iqEL4Hx_AHaE5?pid=ImgDet&rs=1);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body1, .body2, .body3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+    width: 90px;
+    background-color: #ff9090;
+    text-align: justify;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.home:hover {
+    box-shadow: 0px 0px 0px rgb(0,0,0);
+}
+.specialcase {
+    width: 90px;
+    background-color: #ff7070;
+    text-align: justify;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.specialcase:hover {
+    box-shadow: 0px 0px 0px rgb(0,0,0);
+}
+.info {
+    width: 90px;
+    background-color: #ff6060;
+    text-align: justify;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.info:hover {
+    box-shadow: 0px 0px 0px rgb(0,0,0);
+}
+.container {
+    display: flex;
+    gap: 5px;
+}
+.aside1 {
+    width: 50%;
+    margin-right: 0%;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px blue dashed;
+}
+.main1 {
+    margin-left: 0%;
+    width: 50%;
+    text-align: center;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+    border: #a0a0a0 3px dotted;
+}
+.mainaside1 {
+    display: flex;
+    gap: 10px;
+}
+.macimg1 {
+    border-radius: 5px;
+    border: 3px black solid;
+}
